@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a484c674-9977-4ca6-a09d-6b8b86bd6dee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/domain_models/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/domain_models/MerchantStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/domain_models/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/domain_models/OfferRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/enums/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/enums/MerchantType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/MerchantService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/MerchantStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/OfferRuleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/OfferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/offer_matching/OfferMatchingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/offer_matching/OfferMatchingServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/offer_matching/P2MLOfferMatchingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/offer_matching/P2MOfferMatchingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../himanshu-merchant-offer/src/main/java/com/example/geektrust/service/offer_matching/P2POfferMatchingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run-test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/constants/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/constants/DrivingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/constants/RideStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/constants/RidingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/data_service/driver/DriverDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/data_service/driver/DriverDataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/data_service/ride/RideDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/data_service/ride/RideDataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/data_service/rider/RiderDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/data_service/rider/RiderDataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/data_service/rider_match/RiderMatchDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/data_service/rider_match/RiderMatchDataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/domain_models/Ride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/domain_models/RiderMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/domain_models/user/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/domain_models/user/Rider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/domain_models/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/exception/DomainModelConstraintException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/exception/InvalidArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/AddDriverCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/AddRiderCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/BillCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/CommandParserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/ICommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/MatchCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/StartRideCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/StopRideCommandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/argument/AddDriverArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/argument/AddRiderArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/argument/BillArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/argument/CommandArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/argument/MatchArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/argument/StartRideArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/parsers/argument/StopRideArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/processors/AddDriverCommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/processors/AddRiderCommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/processors/BillCommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/processors/CommandProcessorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/processors/ICommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/processors/MatchCommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/processors/StartRideCommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/processors/StopRideCommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/service/FareCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/service/MatchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/utils/CalculationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/validators/AddDriverCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/validators/AddRiderCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/validators/BillCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/validators/CommandValidatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/validators/ICommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/validators/MatchCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/validators/StartRideCommandValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/geektrust/validators/StopRideCommandValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-maven.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2lxVnQJcSlQf8Swv5aoHfL0dR5l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hy/Desktop/problem-solving-geektrust/ride-sharing/pom.xml"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ride-sharing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ride-sharing" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a484c674-9977-4ca6-a09d-6b8b86bd6dee" name="Changes" comment="" />
+      <created>1726121881052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726121881052</updated>
+    </task>
+    <servers />
+  </component>
+</project>
